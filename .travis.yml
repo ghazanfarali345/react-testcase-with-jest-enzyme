@@ -7,10 +7,10 @@ script:
  - npm test
  - npm run build
 
- deploy:
+ deploy: 
   provider: surge
   skip_cleaner : true
-  domain:
+  domain: react-test-case-ghazanfar-ali.surge.sh
   project: ./build/
 
   on:
