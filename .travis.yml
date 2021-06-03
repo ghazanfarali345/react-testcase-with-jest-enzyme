@@ -9,7 +9,7 @@ script:
 
  deploy: 
   provider: surge
-  skip_cleaner : true
+  skip_cleanup : true
   domain: react-test-case-ghazanfar-ali.surge.sh
   project: ./build/
 
